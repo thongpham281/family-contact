@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nato Foody App</title>
+    <title>Thongphn Contact</title>
 </head>
 
 <style>
@@ -37,8 +37,7 @@
         <nav id = "navbar">
             <ul>
                 <li>Trang chủ </li>
-                <li>Đồ ăn </li>
-                <li>Đồ uống</li>
+                <li>Liên hệ </li>
             </ul>
         </nav>
     </header>
