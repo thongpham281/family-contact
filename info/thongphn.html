@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,7 @@
             background-color: #000000;
             color: #ffffff;
             padding: 15px;
+            height: 130px;
         }
 
         .menu ul {
@@ -38,7 +39,7 @@
 
         .menu li {
             padding: 8px;
-            margin-bottom: 7px;
+            margin-top: 7px;
             background-color: #3d3b3b;
             color: #ffffff;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -46,15 +47,6 @@
 
         .menu li:hover {
             background-color: #0099cc;
-        }
-
-        .aside {
-            background-color: #33b5e5;
-            padding: 15px;
-            color: #ffffff;
-            text-align: center;
-            font-size: 14px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         }
 
         .footer {
@@ -66,12 +58,56 @@
 
             position: absolute;
             bottom: 0;
-            /* width: 100%; */
+            width: 100%;
         }
 
         /* For desktop: */
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
         .col-3 {
             width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
         }
 
         @media only screen and (max-width: 768px) {
@@ -110,35 +146,52 @@
 
 <body>
 
-    <div class="header" style="text-align: center;">
-        <img src="https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/169364431_3638865672890823_322124674128960771_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=axkhebd77WwAX9ATlMq&_nc_oc=AQkImB4Fyxk6lP8T1IG2zH-jpGm-Pg-mZx6q0WYXlQ-FxcYisKSTcXdlPye0PPK0mIw&_nc_ht=scontent-xsp1-3.xx&oh=7a30b1adff5fa1e8d6642219f0fdfe07&oe=60E4C1B2"
-            width="100px" height="auto" style="border-radius: 50%;">
-        <h1>THONGPHN</h1>
+    <div class="header">
+        <img 
+            src="https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/169364431_3638865672890823_322124674128960771_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=axkhebd77WwAX9ATlMq&_nc_oc=AQkImB4Fyxk6lP8T1IG2zH-jpGm-Pg-mZx6q0WYXlQ-FxcYisKSTcXdlPye0PPK0mIw&_nc_ht=scontent-xsp1-3.xx&oh=7a30b1adff5fa1e8d6642219f0fdfe07&oe=60E4C1B2"
+            width="100px" 
+            height="auto" 
+            style="border-radius: 50%; float: left;"
+        >
+        
+        <div style="float: right; width: 60%; color: rgb(255, 255, 255);">
+        <h3>Thong Pham</h3>
+        <p style="font-size: x-small;">Xin chào mọi người, mình thích đá banh và coding. Nếu mọi người cần hỗ trợ thì hãy liên lạc mình qua số điện thoại 0908.363.752</p>
+        </div>
+            
     </div>
 
     <div class="row">
         <div class="col-3 menu">
             <ul>
-                <li>
-                    <img src="../images/facebook.png" width="50px" height="auto"
-                        style="border-radius: 50%; vertical-align:middle">
-                    <a href="https://www.facebook.com/NhThoong/">Facebook</a>
-                </li>
-                <li>
-                    <img src="../images/instagram.png" width="50px" height="auto"
-                        style="border-radius: 50%; vertical-align:middle">
-                    <a href="https://www.instagram.com/phnt.2801/">Instagram</a>
-                </li>
+                <a href="https://www.facebook.com/NhThoong/">
+                    <li>
+                        <img src="../images/facebook.png" width="50px" height="auto"
+                            style="border-radius: 50%; vertical-align:middle">
+                        Facebook
+                    </li>
+                </a>
+                <a href="https://www.instagram.com/phnt.2801/">
+                    <li>
+                        <img src="../images/instagram.png" width="50px" height="auto"
+                            style="border-radius: 50%; vertical-align:middle">
+                        Instagram
+                    </li>
+                </a>
+                <a href="http://zaloapp.com/qr/p/119e0wwt5zltd"></a>
                 <li>
                     <img src="../images/zalo.png" width="50px" height="auto"
                         style="border-radius: 50%; vertical-align:middle">
-                    <a href="http://zaloapp.com/qr/p/119e0wwt5zltd">Zalo</a>
+                    Zalo
                 </li>
+                </a>
+                <a href="https://www.youtube.com/channel/UCJRi7GRCZ4JP1Pc77LD8MqA"></a>
                 <li>
                     <img src="../images/youtube.png" width="50px" height="auto"
                         style="border-radius: 50%; vertical-align:middle">
-                    <a href="https://www.youtube.com/channel/UCJRi7GRCZ4JP1Pc77LD8MqA">Youtube</a>
+                    Youtube
                 </li>
+                </a>
             </ul>
         </div>
     </div>
