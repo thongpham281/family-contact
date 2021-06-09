@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>All Members Contact</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 </head>
 
 <style>
@@ -31,7 +32,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding: 50px 0px 5px 30px;
+        padding: 0px 0px 5px 30px;
         text-align: center;
     }
 
@@ -56,17 +57,32 @@
 
     .desc {
         padding: 5px;
+        margin-left: 25px;
         text-align: center;
+    }
+
+    .navbar-custom {
+        background-color: #22b088;
     }
 </style>
 
 <body>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <header>
-        <h1 style="text-align: center;">All Members Contact</h1>
-        <nav id="navbar">
-            <ul>
-                <li>Trang chủ </li>
-            </ul>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4 navbar-custom">
+                <h5 class="text-white h4">Collapsed content</h5>
+                <span class="text-reset">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark navbar-custom">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <h5 class="text-white">MENU</h5>
+                </button>
+
+            </div>
         </nav>
     </header>
 
